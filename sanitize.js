@@ -19,7 +19,8 @@ GoogleLinksSanitizer = {
     sanitize: function () {
         //Sometimes, all_links didn't contain all the links, so I added a delay
         setTimeout(function() {
-            if (document.title.indexOf("- Google Search") >= 0){
+            //If there is something after the baseUrl.
+            if (window.location.href.length - window.location.origin.length > 1){
                 var all_main_links = document.getElementsByClassName("r");
                 for (i=0; i<all_main_links.length; i++){
                     var current_link = all_main_links[i].childNodes[0];
