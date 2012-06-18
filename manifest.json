@@ -196,6 +196,5 @@
       "128": "sanitizer.jpg"
    },
    "name": "GSanitizer",
-   "permissions":  [ "https://www.google.*" ],
-   "version": "1.0"
+   "version": "1.2"
 }
