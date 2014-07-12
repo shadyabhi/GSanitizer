@@ -1,4 +1,7 @@
 {
+   "manifest_version": 2,
+   "name": "GSanitizer",
+   "version": "1.3",
    "content_scripts": [ {
       "js": [ "sanitize.js" ],
       "matches": [
@@ -194,7 +197,5 @@
    "description": "Cleans links on google search results",
    "icons": {
       "128": "sanitizer.jpg"
-   },
-   "name": "GSanitizer",
-   "version": "1.3"
+   }
 }
