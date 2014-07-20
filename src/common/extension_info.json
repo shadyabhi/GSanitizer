@@ -3,7 +3,7 @@
     "description": "This extension cleans Google Links on search page so that it opens directly without going via google redirection",
     "creator": "shadyabhi",
     "homepage_url": "https://github.com/shadyabhi/GSanitizer",
-    "version": "1.6",
+    "version": "2.0",
     "permissions": {
         "content_scripts": [
             "http://www.google.com/*",
