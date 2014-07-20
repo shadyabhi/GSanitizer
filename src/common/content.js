@@ -1,6 +1,6 @@
 // ==UserScript==
-// #name Test
-// #include http://*
+// #name GSanitizer
+// #include http://www.google.*
 // ==/UserScript==
 
 GoogleLinksSanitizer = {
