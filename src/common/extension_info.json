@@ -1,0 +1,8 @@
+{
+    "content_scripts": [ "content.js" ],
+    "description": "This extension cleans Google Links on search page so that it opens directly without going via google redirection",
+    "creator": "shadyabhi",
+    "homepage_url": "https://github.com/shadyabhi/GSanitizer",
+    "version": "1.5",
+    "name": "GSanitizer"
+}

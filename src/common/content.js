@@ -1,7 +1,7 @@
-/*
-Author: Abhijeet Rastogi (shadyabhi)
-Email: abhijeet.1989@gmail.com
-*/
+// ==UserScript==
+// #name Test
+// #include http://*
+// ==/UserScript==
 
 GoogleLinksSanitizer = {
     init : function () {
@@ -10,10 +10,10 @@ GoogleLinksSanitizer = {
             //Sometimes, all_links didn't contain all the links, so I added a delay
             setTimeout(GoogleLinksSanitizer.sanitize, 800);
             };
-        
+
         //Check if User uses omnibar in chrome to search on google
         if (window.location.href.indexOf("/search?") !== -1){
-            GoogleLinksSanitizer.sanitize();    
+            GoogleLinksSanitizer.sanitize();
             }
         },
 
