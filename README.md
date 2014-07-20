@@ -8,6 +8,10 @@ This extension uses [kango framework](http://kangoextensions.com/) to build exte
 
 http://youtu.be/tRwA3gGJ-6M
 
+## Browser Extension links
+
+Chrome: https://chrome.google.com/webstore/detail/gsanitizer/cponecejlghamlmknchjbdimphahdpfo
+
 ## Suggestions/Improvements?
 
 Shoot a email to extensions@abhijeetr.com or create a issue on Github here.
