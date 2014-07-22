@@ -12,7 +12,7 @@ GoogleLinksSanitizer = {
             };
 
         //Check if User uses omnibar in chrome to search on google
-        if (window.location.href.indexOf("/search?") !== -1){
+        if (window.location.href.indexOf("/search?") !== -1 || window.location.href.indexOf("/webhp?") !== -1){
             GoogleLinksSanitizer.sanitize();
             }
         },
